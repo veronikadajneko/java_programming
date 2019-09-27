@@ -8,18 +8,8 @@ public class Test {
         while (((str1 = in.nextLine()).length()) != 0) {
             text.add(str1);
         }
-
-        TreeSet<Character> symbols = new TreeSet<Character>();
-        for (var line : text) {
-            for (var c : line.toCharArray()) {
-                if (Character.isLetter(c))
-                symbols.add(c);
-            }
-        }
-        Iterator<Character> itr = symbols.iterator();
-
-        while (itr.hasNext()){
-                System.out.println(itr.next());
-        }
+        var value = new Symbols();
+        value.addLetters(text);
+        value.printLetters();
     }
 }

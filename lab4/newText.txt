@@ -1,0 +1,6 @@
+
+            String str = "'";
+            char cccc = '"'; 
+            System.out.println("/*dfsdf*////****/**//**Hello\", \\'world!\\"); 
+            "".getBytes();
+            

@@ -1,6 +1,0 @@
-
-            String str = "'";//COMMENT
-            char cccc = '"'; //"hjhkjhkj
-            System.out.println("/*dfsdf*////****/**//**Hello\", \\'world!\\");/**/ //        
-            "".getBytes();
-            //  \u000d System.out.println("Bye!");

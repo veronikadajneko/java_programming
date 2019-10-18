@@ -22,8 +22,10 @@ class Text {
         }
 
     }
+
     private List<Integer> number = new ArrayList<Integer>();
     private List<String> falseF = new ArrayList<String>();
+
     List<Integer> findFragments(List<String> inList) {
         for (int i = 0; i < inList.size(); i++) {
             int flag = 0;
@@ -40,6 +42,7 @@ class Text {
         }
         return number;
     }
+
     List<String> falseFragments(List<String> inList) {
         for (int i = 0; i < inList.size(); i++) {
             int flag = 0;

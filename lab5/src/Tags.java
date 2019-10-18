@@ -25,4 +25,7 @@ class Tags {
         return list;
     }
 
+    public List<String> getList() {
+        return list;
+    }
 }
